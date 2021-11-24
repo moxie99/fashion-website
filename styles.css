@@ -1,0 +1,341 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	overflow-x: hidden;
+}
+ul li a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+ul li a:hover{
+	color: brown;
+}
+.top{
+	border: 1px solid #000;
+	background-color: #000;
+	height: 30px;
+	color: #fff;
+	/*position: fixed;
+	z-index: 10;*/
+}
+ul{
+	float: left;
+}
+ul li{
+	margin-top: 10px;
+	float: left;
+	position: relative;
+	left: 500%;
+	width: 100px;
+	font-size: 1rem;
+	font-family: 'Poppins', sans-serif;
+	list-style-type: none;
+}
+h5{
+	margin-top: 1px;
+	color: white;
+	margin: 7px 12px;
+	position: relative;
+	left: -18px;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+.nav{
+	border: 1px solid transparent;
+	background-color: ghostwhite;
+	height: 50px;
+}
+ol{
+	float: left;
+	margin-top: 15px;
+} 
+ol li{
+	width: 90px;
+	position: relative;
+	left: 150%;
+	float: left;
+	list-style-type: none;
+	font-size: 1.2rem;
+}
+ol li a{
+	text-decoration: none;
+	color: black;
+}
+ol li a:hover{
+	border-bottom: 2px solid darkred;
+}
+.fa-search{
+	position: absolute;
+	left: 82%;
+	top: 5%;
+	color: black;
+}
+.fa-user{
+	position: absolute;
+	left: 85%;
+	top: 5%;
+	color: black;
+}
+.fa-shopping-cart{
+	position: absolute;
+	left: 88%;
+	top: 5%;
+	color: black;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	background-color: navajowhite;
+	margin-top: -2px;
+	margin-left: -4px;
+	text-align: left;
+}
+.shopping h4{
+	color: red;
+	position: absolute;
+	left: 88.8%;
+	top: 5%;
+	width: 1rem;
+	height: -50px;
+	border-radius: 100px;
+	text-align: center;
+}
+.nav h2{
+	position: relative;
+	left:-23.8%;
+	text-transform: uppercase;
+	margin-top: 12px;
+	font-weight: bolder;
+}
+font{
+	color: orangered;
+}
+.cover{
+	background-image: url(./images/clothing2.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	margin-top: 2px;
+}
+.text{
+	position: absolute;
+	top:  50%;
+	left: 30%;
+	transform: translate(-30%, -50%);
+}
+.text h1{
+	width: 600px;
+	font-size: 3rem;
+	text-transform: uppercase;
+	line-height: 70px;
+}
+
+.text h3{
+	position: absolute;
+	top: -10%;
+	width: 300px;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	line-height: 20px;
+}
+form input[type="submit"]{
+	position: absolute;
+	top: 65%;
+	left: 23%;
+	transform: translate(-23%, -65%);
+	padding: 10px;
+	background-color: orangered;
+	width: 10rem;
+	height: 3rem;
+	color: whitesmoke;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 15px;
+}
+form input[type="submit"]:hover{
+	background-color: white;
+	color: orangered;
+	font-weight: bolder;
+
+}
+
+
+.avatar-women{
+	position: absolute;
+	left: 30%;
+	top: 100%;
+	border: 1px solid darkgray;
+	box-shadow: 1px 2px 4px;
+}
+
+.avatar-men{
+	position: absolute;
+	left: 10%;
+	top: 100%;
+	border: 1px solid darkgray;
+	box-shadow: 1px 2px 4px;
+}
+
+.avatar-sneakers{
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	border: 1px solid darkgray;
+	box-shadow: 1px 2px 4px;
+}
+
+.avatar-stiletos{
+	position: absolute;
+	left: 70%;
+	top: 100%;
+	border: 1px solid darkgray;
+	box-shadow: 1px 2px 4px;
+}
+.shadow:hover{
+	box-shadow: 1px 2px 9px;
+}
+.label{
+	color: black;
+	position: absolute;
+	left: 10%;
+	top: 55%;
+	border: 1px solid black;
+	width: 200px;
+	font-size: 1.5rem;
+	background-color: wheat;
+	font-weight: bolder;
+	text-align: center;
+}
+img{
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+}
+.flex{
+	margin-top: 320px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.avatar{
+	min-height: 400px;
+	background-color: black;
+	padding-bottom: 20px;
+}
+.avatar h6{
+	color: white;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bolder;
+	margin-top: 20px;
+}
+.avatar img{
+	height: 350px;
+	width: 350px;
+	object-fit: cover;
+}
+@media (max-width: 1330px) {
+  .hero{
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-wrap: wrap;
+  }
+  .flex{
+  	margin-top: 0;
+  	padding: 150px;
+  }
+  .avatar-women{
+  	position: unset;
+  }
+  .avatar-men{
+  	position: unset;
+  }
+  .avatar-sneakers{
+  	position: unset;
+  }
+  .avatar-stiletos{
+  	position: unset;
+  }
+  .label{
+	color: black;
+	position: unset;
+	border: 1px solid black;
+	font-size: 1rem;
+	background-color: wheat;
+	font-weight: bolder;
+	text-align: center;
+}
+}
+
+@media (max-width: 1333px) {
+	ul li{
+	margin-top: 10px;
+	float: left;
+	position: relative;
+	left: 250%;
+	width: 100px;
+	font-size: 1rem;
+	font-family: 'Poppins', sans-serif;
+	list-style-type: none;
+}
+
+ol li{
+	width: 90px;
+	position: relative;
+	left: 100%;
+	float: left;
+	list-style-type: none;
+	font-size: 1.2rem;
+}
+.nav h2{
+	position: relative;
+	left: -70%;
+	text-transform: uppercase;
+	margin-top: 12px;
+	font-weight: bolder;
+}
+
+}
+
+
+
+@media (max-width: 769px) {
+	ul li{
+	margin-top: 10px;
+	float: left;
+	position: relative;
+	left: 150%;
+	width: 100px;
+	font-size: 0.75rem;
+	font-family: 'Poppins', sans-serif;
+	list-style-type: none;
+}
+h5{
+	margin-top: 1px;
+	color: white;
+	margin: 7px 12px;
+	position: relative;
+	left: -250px;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: normal;
+}
+ol li{
+	width: 90px;
+	position: relative;
+	left: 40%;
+	float: left;
+	list-style-type: none;
+	font-size: 1.2rem;
+}
+}
